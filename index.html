@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic algorithm scripting</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="" id="form" class="form">
+        <h2>Basic algorithm scripting</h2>
+        <div class="control">
+          <label for="title">Input</label>
+          <input type="text" id="title" placeholder="Enter input" required />
+          <small>Error message</small>
+        </div>
+        <div class="control">
+          <label for="algorithm">Please select the algorithm:</label>
+          <select id="algorithm" name="algorithm" required>
+            <option value="">-Select-</option>
+            <option value="first">Convert celsius to fahrenheit</option>
+            <option value="second">Factorialize number</option>
+            <option value="third">Reverse a string</option>
+            <option value="fourth">Find the longest word</option>
+            <option value="fifth">Title case a sentence</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="output">Output:</label>
+          <div id="output"></div>
+          <small>Error message</small>
+        </div>
+        <button type="submit">Process</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
